@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json.schemastore.org/funding/v2",
+  "project_name": "DigiStack DPI / DigID Core Architecture",
+  "deployment_region": "Mumbai, Maharashtra, India",
+  "base_currency": "INR",
+  "indicative_pricing_date": "May 2026",
+  "preferred_hardware_distributors": ["Prime ABGB", "EliteHubs", "Computech Store", "Green Apple Compunet"],
+  "financial_summary": {
+    "workstation_hardware_build_subtotal": 604493,
+    "laboratory_testing_hardware_subtotal": 68000,
+    "digital_presence_and_sec_subtotal": 5980,
+    "five_year_operational_runway_total": 180000,
+    "project_net_cost": 859802,
+    "contingency_buffer_10_percent": 85980,
+    "total_grant_funding_request": 945782
+  },
+  "workstation_hardware_manifest": [
+    {
+      "item_id": "HW-01",
+      "component": "CPU",
+      "model": "AMD Ryzen 9 9950X (16-Core, 32-Thread, 5.7GHz Boost, AM5, Zen 5 Architecture)",
+      "quantity": 1,
+      "unit_cost": 58994,
+      "source": "EliteHubs.com / Prime ABGB Verification",
+      "purpose": "Primary high-concurrency processing engine to execute multi-threaded asynchronous simulations of parallel cryptographic packet deliveries across virtual machine nodes."
+    },
+    {
+      "item_id": "HW-02",
+      "component": "CPU Cooler",
+      "model": "Asus ProArt LC 420 (420mm Liquid AIO, 3x Noctua NF-A14 PWM Fans, AM5 Native)",
+      "quantity": 1,
+      "unit_cost": 24049,
+      "source": "Green Apple Compunet",
+      "purpose": "Ensures precise thermal regulation for the processor core during continuous, high-load cryptographic compilation cycles."
+    },
+    {
+      "item_id": "HW-03",
+      "component": "Motherboard",
+      "model": "Asus ProArt X870E-CREATOR WIFI (ATX, AM5, PCIe 5.0 Bus, WiFi 7, Dual USB4 Channels)",
+      "quantity": 1,
+      "unit_cost": 50999,
+      "source": "Computech Store",
+      "purpose": "Developer motherboard providing native unthrottled PCIe lanes for accelerator cards and ultra-wide I/O buses to prevent memory pipeline bottlenecks."
+    },
+    {
+      "item_id": "HW-04",
+      "component": "RAM",
+      "model": "G.Skill Flare X5 128GB (2x64GB) DDR5-6000 CL36 (AMD EXPO Profiling Configuration)",
+      "quantity": 1,
+      "unit_cost": 119999,
+      "source": "Computech Store High-Density Validation Row",
+      "purpose": "Provides a robust system memory safety buffer to scale dozens of parallel Docker containers, local identity registries, and localized simulation instances simultaneously."
+    },
+    {
+      "item_id": "HW-05",
+      "component": "Storage",
+      "model": "Samsung 990 Pro 4TB NVMe Gen4 SSD (Dual Configuration for Isolated Development Tiers)",
+      "quantity": 2,
+      "unit_cost": 67899,
+      "total_cost": 135798,
+      "source": "Computech Store",
+      "purpose": "Dual high-speed array (8TB total) to isolate the primary host operating system environment from intensive cryptographic state simulation logs and file repositories."
+    },
+    {
+      "item_id": "HW-06",
+      "component": "GPU",
+      "model": "Asus TUF Gaming Radeon RX 7900 XTX OC Edition (24GB GDDR6 dedicated compute VRAM)",
+      "quantity": 1,
+      "unit_cost": 90265,
+      "source": "Computech Store Baseline",
+      "purpose": "Primary hardware accelerator to execute parallel OpenCL computing workloads, localized cryptographic signature loops, and host quantized Small Language Models (SLMs)."
+    },
+    {
+      "item_id": "HW-07",
+      "component": "Case",
+      "model": "Asus ProArt PA602 (E-ATX Mid Tower, High-Airflow Architecture, 420mm Radiator Support)",
+      "quantity": 1,
+      "unit_cost": 18000,
+      "source": "Prime ABGB Store-Floor Estimate",
+      "purpose": "High-volume chassis optimized for system airflow patterns to maintain stable ambient temperatures across all major computing components."
+    },
+    {
+      "item_id": "HW-08",
+      "component": "PSU",
+      "model": "FSP Group Hydro Ti Pro Gen5 1000W (80+ Titanium Certified efficiency, Native ATX 3.0 Line)",
+      "quantity": 1,
+      "unit_cost": 22000,
+      "source": "Prime ABGB Store-Floor Estimate",
+      "purpose": "Delivers a highly efficient electrical foundation with minimal thermal waste to power the entire system configuration under simultaneous peak computational loads."
+    },
+    {
+      "item_id": "HW-09",
+      "component": "Monitor",
+      "model": "Asus ProArt PA279CRV (27-inch 4K UHD IPS panel, 99% DCI-P3 color space, USB-C 96W Power Delivery)",
+      "quantity": 1,
+      "unit_cost": 84389,
+      "source": "Flipkart Retail Ledger",
+      "purpose": "High-fidelity visual display terminal optimized to reduce eye fatigue during long-duration code review and engineering development cycles."
+    }
+  ],
+  "laboratory_and_testing_hardware": {
+    "allocated_subtotal": 68000,
+    "itemized_manifest": [
+      {
+        "slot_id": "LAB-01",
+        "item": "Uninterruptible Power Supply / Power Stabilizer Units",
+        "specification": "APC or Belkin Line-Interactive Voltage Regulation Hardware Protection Line",
+        "quantity": 1,
+        "cost": 53000,
+        "purpose": "Protects local file operations and directory compilation states against electrical spikes and unexpected municipal line power interruptions."
+      },
+      {
+        "slot_id": "LAB-02",
+        "item": "External Backup Storage Array Tiers",
+        "specification": "Samsung T7 or WD My Passport Ruggedized 2TB Portable SSD Storage Modules",
+        "quantity": 2,
+        "cost": 5000,
+        "total_cost": 10000,
+        "purpose": "Acts as an air-gapped, cold storage system for offline repository images and master encryption key trees."
+      },
+      {
+        "slot_id": "LAB-03",
+        "item": "Shielded Physical Routing Infrastructure Line",
+        "specification": "Cat6a High-Insulation Gigabit Ethernet Interconnect Cables (1m, 2m, 5m, 10m variants)",
+        "quantity": 4,
+        "cost": 500,
+        "total_cost": 2000,
+        "purpose": "Forms a physically isolated, hardware-switched network test framework within the laboratory workspace to run air-gapped mesh validations safely."
+      },
+      {
+        "slot_id": "LAB-04",
+        "item": "Workspace Hardware Implementation Consumables Block",
+        "specification": "Structured Cable Management arrays, Labels, Active USB Hub Extensions, Peripheral I/O Adapters",
+        "quantity": 1,
+        "cost": 3000,
+        "purpose": "Provides necessary setup hardware components, interface extensions, and structural labeling tools for physical laboratory node deployments."
+      }
+    ]
+  },
+  "project_runway_5_year_plan": {
+    "monthly_operational_burn_rate": {
+      "society_provided_internet_overhead": 0,
+      "electricity_allocation_eight_hour_daily_cycle": 1500,
+      "digistack_foundation_domain_amortization": 341,
+      "digistack_dev_domain_amortization": 159,
+      "cloud_redundancy_and_backup_pipelines": 500,
+      "miscellaneous_hardware_maintenance_buffer": 500,
+      "total_monthly_burn_rate_inr": 3000
+    },
+    "five_year_cumulative_runway": {
+      "year_1_milestone": 36000,
+      "year_2_milestone": 72000,
+      "year_3_milestone": 108000,
+      "year_4_milestone": 144000,
+      "year_5_milestone": 180000
+    }
+  },
+  "operational_compliance_policies": [
+    "Indicative asset allocations fixed to market tracking metrics of mid-2026. Core hardware components are subject to localized logistics adjustments.",
+    "Component sourcing pipelines focus procurement directly via established Mumbai retail hubs (Prime ABGB, Computech, Green Apple Compunet).",
+    "All operational acquisitions mandate structured GST invoices to provide robust verification trace paths for grant compliance audits.",
+    "The underlying workstation execution model runs on open-source Linux configurations (Linux Mint/Debian base) to maintain a zero-fee system architecture."
+  ]
+}
