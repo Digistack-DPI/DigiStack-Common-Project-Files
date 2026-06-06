@@ -1,1 +1,132 @@
+# DigiStack Commons — Master TODO List
 
+
+* [ ] README.md
+* [ ] VISION.md
+* [ ] ROADMAP.md
+* [ ] GOVERNANCE.md
+* [ ] SECURITY.md
+* [ ] CONTRIBUTING.md
+* [ ] CODE_OF_CONDUCT.md
+* [ ] LICENSE
+
+### Funding
+
+* [ ] funding/funding.json
+* [ ] funding/grants.md
+* [ ] funding/sponsorships.md
+
+---
+
+# Phase 2 — Ecosystem Standards
+
+## Standards
+
+* [ ] standards/naming-conventions.md
+* [ ] standards/repository-standards.md
+* [ ] standards/documentation-standards.md
+* [ ] standards/coding-standards.md
+* [ ] standards/security-standards.md
+* [ ] standards/cryptography-standards.md
+* [ ] standards/api-standards.md
+* [ ] standards/audit-log-standards.md
+* [ ] standards/identity-standards.md
+* [ ] standards/versioning-standards.md
+
+---
+
+# Phase 3 — RFC Infrastructure
+
+## RFC Process
+
+* [ ] rfcs/RFC_TEMPLATE.md
+
+## Initial RFCs
+
+* [ ] RFC-0001 DigID Identifier Format
+* [ ] RFC-0002 QR Authentication Protocol
+* [ ] RFC-0003 Audit Log Format
+* [ ] RFC-0004 DigiStack Service Identity Standard
+
+---
+
+# Phase 4 — Governance
+
+## Governance Files
+
+* [ ] governance/maintainers.md
+* [ ] governance/roles-and-responsibilities.md
+* [ ] governance/decision-making.md
+* [ ] governance/release-process.md
+* [ ] governance/project-lifecycle.md
+
+---
+
+# Phase 5 — Security
+
+## Security Documentation
+
+* [ ] security/threat-model.md
+* [ ] security/vulnerability-disclosure-policy.md
+* [ ] security/responsible-disclosure.md
+* [ ] security/security-response-process.md
+
+---
+
+# Phase 6 — Templates
+
+## Reusable Templates
+
+* [ ] templates/architecture-template.md
+* [ ] templates/threat-model-template.md
+* [ ] templates/security-review-template.md
+* [ ] templates/project-proposal-template.md
+* [ ] templates/api-spec-template.md
+* [ ] templates/roadmap-template.md
+
+---
+
+# Phase 7 — Branding
+
+## Branding Assets
+
+* [ ] branding/logo.svg
+* [ ] branding/logo-dark.svg
+* [ ] branding/logo-light.svg
+* [ ] branding/brand-guidelines.md
+
+---
+
+# Phase 8 — GitHub Organization Standards
+
+## Issue Templates
+
+* [ ] .github/ISSUE_TEMPLATE/bug_report.md
+* [ ] .github/ISSUE_TEMPLATE/feature_request.md
+* [ ] .github/ISSUE_TEMPLATE/security_issue.md
+* [ ] .github/ISSUE_TEMPLATE/proposal.md
+
+## GitHub Automation
+
+* [ ] .github/PULL_REQUEST_TEMPLATE.md
+* [ ] .github/FUNDING.yml
+* [ ] .github/dependabot.yml
+
+---
+
+# DigID Work
+
+## Documentation
+
+* [ ] Update DigID v3 Security Review
+* [ ] Add v3 Findings & Patches
+* [ ] Finalize Threat Model
+* [ ] Create Pilot Plan
+
+## Architecture
+
+* [ ] Define DigID Identifier Format
+* [ ] Define Authentication Flow
+* [ ] Define QR Authentication Flow
+* [ ] Define Recovery Process
+ 
